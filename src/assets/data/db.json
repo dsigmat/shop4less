@@ -1,0 +1,92 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Headphone",
+      "category_id": 2,
+      "description": "Product description goes here",
+      "price": 100,
+      "is_available": true,
+      "rating": 4,
+      "reviews": 154,
+      "vendor_name": "Seller -1",
+      "warranty": 2,
+      "product_img": "url_to_image_1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Earbuds",
+      "category_id": 2,
+      "description": "Wireless earbuds with noise cancellation",
+      "price": 120,
+      "is_available": true,
+      "rating": 4.5,
+      "reviews": 234,
+      "vendor_name": "Seller -2",
+      "warranty": 1,
+      "product_img": "url_to_image_2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Bluetooth Speaker",
+      "category_id": 3,
+      "description": "Portable speaker with deep bass",
+      "price": 80,
+      "is_available": false,
+      "rating": 4.2,
+      "reviews": 178,
+      "vendor_name": "Seller -3",
+      "warranty": 1,
+      "product_img": "url_to_image_3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Gaming Headset",
+      "category_id": 2,
+      "description": "For immersive gaming experience",
+      "price": 150,
+      "is_available": true,
+      "rating": 4.7,
+      "reviews": 312,
+      "vendor_name": "Seller -1",
+      "warranty": 2,
+      "product_img": "url_to_image_4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Smartwatch",
+      "category_id": 4,
+      "description": "Track your fitness and receive notifications",
+      "price": 200,
+      "is_available": true,
+      "rating": 4.3,
+      "reviews": 290,
+      "vendor_name": "Seller -2",
+      "warranty": 2,
+      "product_img": "url_to_image_5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Laptop Stand",
+      "category_id": 5,
+      "description": "Ergonomic stand for laptops",
+      "price": 30,
+      "is_available": true,
+      "rating": 4.1,
+      "reviews": 65,
+      "vendor_name": "Seller -3",
+      "warranty": 1,
+      "product_img": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
