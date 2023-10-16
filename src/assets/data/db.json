@@ -1,9 +1,9 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Headphone",
-      "category_id": 2,
+      "productId": 1,
+      "productName": "Headphone",
+      "categoryId": 1,
       "description": "Product description goes here",
       "price": 100,
       "is_available": true,
@@ -11,12 +11,12 @@
       "reviews": 154,
       "vendor_name": "Seller -1",
       "warranty": 2,
-      "product_img": "url_to_image_1.jpg"
+      "productImg": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
     },
     {
-      "id": 2,
-      "name": "Earbuds",
-      "category_id": 2,
+      "productId": 2,
+      "productName": "Earbuds",
+      "categoryId": 2,
       "description": "Wireless earbuds with noise cancellation",
       "price": 120,
       "is_available": true,
@@ -24,12 +24,12 @@
       "reviews": 234,
       "vendor_name": "Seller -2",
       "warranty": 1,
-      "product_img": "url_to_image_2.jpg"
+      "productImg": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
     },
     {
-      "id": 3,
-      "name": "Bluetooth Speaker",
-      "category_id": 3,
+      "productId": 3,
+      "productName": "Bluetooth Speaker",
+      "categoryId": 2,
       "description": "Portable speaker with deep bass",
       "price": 80,
       "is_available": false,
@@ -37,12 +37,12 @@
       "reviews": 178,
       "vendor_name": "Seller -3",
       "warranty": 1,
-      "product_img": "url_to_image_3.jpg"
+      "productImg": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
     },
     {
-      "id": 4,
-      "name": "Gaming Headset",
-      "category_id": 2,
+      "productId": 4,
+      "productName": "Gaming Headset",
+      "categoryId": 3,
       "description": "For immersive gaming experience",
       "price": 150,
       "is_available": true,
@@ -50,12 +50,12 @@
       "reviews": 312,
       "vendor_name": "Seller -1",
       "warranty": 2,
-      "product_img": "url_to_image_4.jpg"
+      "productImg": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
     },
     {
-      "id": 5,
-      "name": "Smartwatch",
-      "category_id": 4,
+      "productId": 5,
+      "productName": "Smartwatch",
+      "categoryId": 5,
       "description": "Track your fitness and receive notifications",
       "price": 200,
       "is_available": true,
@@ -63,12 +63,12 @@
       "reviews": 290,
       "vendor_name": "Seller -2",
       "warranty": 2,
-      "product_img": "url_to_image_5.jpg"
+      "productImg": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg"
     },
     {
-      "id": 6,
-      "name": "Laptop Stand",
-      "category_id": 5,
+      "productId": 6,
+      "productName": "Laptop Stand",
+      "categoryId": 5,
       "description": "Ergonomic stand for laptops",
       "price": 30,
       "is_available": true,
@@ -76,7 +76,31 @@
       "reviews": 65,
       "vendor_name": "Seller -3",
       "warranty": 1,
-      "product_img": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg"
+      "productImg": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "categoryName": "Polo Tshirts"
+    },
+    {
+      "id": 2,
+      "categoryName": "Soccer Tshirts"
+    },
+    {
+      "id": 3,
+      "categoryName": "Casual Tshirts"
+    }
+  ,
+    {
+      "id": 4,
+      "categoryName": "Tshirts"
+    }
+  ,
+    {
+      "id": 5,
+      "categoryName": "Phone"
     }
   ],
   "comments": [
